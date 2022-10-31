@@ -1,3 +1,43 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.tit-img {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.img-title {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    background: url(https://platzi-avo.vercel.app/images/maluma.jpg);
+    background-repeat: no-repeat;
+     overflow:hidden; 
+     background-size: cover;
+
+}
+
+#app {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-center {
+    font-family: "Helvetica Neue";
+}
+
+.contenedor {
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+    align-items: center;
+    border: 2px solid #a7c957;
+    border-radius:20px;
+    -webkit-box-shadow: -9px -7px 5px -2px rgba(2,173,105,0.38);
+    -moz-box-shadow: -9px -7px 5px -2px rgba(2,173,105,0.38);
+    box-shadow: -9px -7px 5px -2px rgba(2,173,105,0.38);
+
+}
