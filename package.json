@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ale150375.github.io/practicedom/",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
